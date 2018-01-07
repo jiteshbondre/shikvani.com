@@ -10,7 +10,7 @@
 	<div class="col-md-6">
 	<div class="alert alert-success">{{session()->get('m')}}</div>
 <H1>Demo</H1>
-<button type="button" class="btn btn-outline-info btn-lg">
+<button type="button" class="btn btn-outline-info btn-lg" onClick=alert("Hello")>
   <span class="glyphicon glyphicon-star" aria-hidden="true"></span> DADA
 </button>
 </div>
