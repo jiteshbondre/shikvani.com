@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/demo', function () {
+	session()->flash('m','kkkk');
+    return view('demo');
+});
