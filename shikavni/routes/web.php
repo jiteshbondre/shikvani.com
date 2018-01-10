@@ -18,3 +18,8 @@ Route::get('/demo', function () {
 	session()->flash('m','kkkk');
     return view('demo');
 });
+
+Route::get('/home', function () {
+	session()->flash('m','kkkk');
+    return view('homeEG');
+});
